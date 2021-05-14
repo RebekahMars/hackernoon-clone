@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import articles from "./hackerNoonArticles";
 import './App.css';
 
+const Card = props => {
+  console.log(props.title)
+
+  return (
+    <div className="card-container">
+      <div>
+        <h2 className="card-title">{props.title}</h2>
+        {props.children}
+      </div>
+    </div>
+  );
+}
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Card>
+          <div>{articles.Programming[0].titleText}</div>
+        </Card>
+        <Card>
+          <div>{articles.Programming[0].titleLink}</div>
+        </Card>
       </header>
     </div>
   );
