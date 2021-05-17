@@ -1,0 +1,34 @@
+.Avatar {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 0px 400px 0px 400px;
+}
+.card-body{
+    border: 2px solid lightgray;
+}
+.card-title {
+    text-align: center;
+}
+.card-text-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-text-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.img {
+    display: block;
+}
