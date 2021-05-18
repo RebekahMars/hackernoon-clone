@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles";
+import "./Card.css"
 
 /*React Card Element*/
 export function React() {

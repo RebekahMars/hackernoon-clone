@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles";
+import "./Card.css"
 
 /*Decentrailzed Internet Card Element*/
 export function Internet() {

@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import "./Card.css";
 import App from './App';
-import Programming from "./Card"
-import Technology from "./Card"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

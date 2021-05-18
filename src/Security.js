@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles";
+import "./Card.css"
 
 /*Security Card Element*/
 export function Security() {

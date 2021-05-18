@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles";
+import "./Card.css";
 
 /*Blockchain Card Element*/
 export function Blockchain() {

@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles";
+import "./Card.css"
 
 /*Python Card Element*/
 export function Python() {
@@ -13,7 +14,7 @@ export function Python() {
                     <h2 className="article-title">{article.titleText}</h2>
                     <div className="Avatar">
                         <div>
-                            {/* {<img src={article.avatarSrc}></img>} */}
+                            {<img src={article.avatarSrc}></img>}
                         </div>
                         <div className="card-text-left">
                             <p>{article.userName}</p>

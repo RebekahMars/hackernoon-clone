@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles";
+import "./Card.css"
 
 /*Decentralization Card Element*/
 export function Decentralization() {

@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles";
+import "./Card.css"
 
 /*Hacernoon Podcast Card Element*/
 export function Podcast() {

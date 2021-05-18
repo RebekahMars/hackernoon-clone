@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles"
+import "./Card.css"
 
 /*Javascript Card Element*/
 export function Javascript() {

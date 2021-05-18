@@ -1,4 +1,5 @@
 import articles from "./hackerNoonArticles";
+import "./Card.css"
 
 /*Hackernoon Card Element*/
 export function Hackernoon() {

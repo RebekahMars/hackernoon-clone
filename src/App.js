@@ -18,15 +18,23 @@ import Velo from "./Velo";
 import Hackernoon from "./Hackernoon";
 import Internet from "./Internet";
 import Software from "./Development";
+import Heading from "./Heading";
+import HackerAbout from "./About-Section";
+import Footer from "./Footer";
 
 import "./Card.css";
 import './App.css';
+import "./Heading.css";
+import "./AboutSection.css";
+import "./Footer.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="articles">
+        <Heading/>
+      </header>
+      <div className="articles">
           <Programming/>
           <Technology/>
           <Crypto/>
@@ -45,8 +53,11 @@ function App() {
           <Hackernoon/>
           <Internet/>
           <Software/>
+          <HackerAbout/>
         </div>
-      </header>
+        <footer className="App-footer">
+          <Footer/>
+        </footer>
     </div>
   );
 }
