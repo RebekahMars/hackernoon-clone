@@ -6,4 +6,6 @@ To start the project:
   -React tabs should be installed to have the tab feature work ("npm install --save react-tabs")
   -Enter "npm start" in terminal
   
-
+Things I need to work on:
+  -Organize files so that they are not all jumbled. Put javascript files in a file inside the 'src' folder called 'js' and etc
+  -Footer and about section is not styled properly
