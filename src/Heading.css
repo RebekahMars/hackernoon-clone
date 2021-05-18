@@ -34,6 +34,10 @@
     justify-content: center;
     gap: 25px;
 }
+.header-bottom p:hover
+{
+    cursor: pointer;
+}
 .header-search
 {
     background-color: rgb(0, 59, 0);

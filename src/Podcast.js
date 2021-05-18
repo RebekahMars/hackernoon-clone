@@ -4,7 +4,7 @@ import "./Card.css"
 /*Hacernoon Podcast Card Element*/
 export function Podcast() {
     return (
-        <div className="technology-card">
+        <div className="podcast-card">
             <div className="card-title">
                 <h2>Hackernoon Podcast</h2>
             </div>

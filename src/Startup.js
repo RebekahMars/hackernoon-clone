@@ -4,7 +4,7 @@ import "./Card.css"
 /*Startup Card Element*/
 export function Startup() {
     return (
-        <div className="technology-card">
+        <div className="startup-card">
             <div className="card-title">
                 <h2>Startup</h2>
             </div>

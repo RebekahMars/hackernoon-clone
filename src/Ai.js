@@ -5,7 +5,7 @@ export function AI() {
     return (
         <div className="Ai-card">
             <div className="card-title">
-                <h2>Ai</h2>
+                <h2>AI</h2>
             </div>
             <div className="card">
                 {articles.Ai.map((article, index) => 
