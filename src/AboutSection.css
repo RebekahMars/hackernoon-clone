@@ -5,8 +5,15 @@
     justify-content: center;
     flex-direction: row;
     text-align: center;
+    gap: 25px;
 }
-.about-button
+.about-section
+{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+.tabs
 {
     border: none;
     text-align: center;
@@ -14,16 +21,17 @@
     height: 100px;
     font-size: 25px;
 }
-.about-button:hover{
+.tabs:hover{
     cursor: pointer;
     background-color: rgb(33, 36, 40);
     color: rgb(0, 255, 0);
 }
-.table-text-section
+.tab-text
 {
-    position: absolute;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
     background-color: rgb(33, 36, 40);
     color: rgb(0, 255, 0);
 }
