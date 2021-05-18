@@ -12,6 +12,7 @@ export function Crypto() {
                 {articles.Cryptocurrency.map((article, index) => 
                 <div className="card-body" key={index}>
                      <a href={article.titleLink} className="article-title">{article.titleText}</a>
+                     <div><button type="submit" className="hash-tag">{article.hashTag}</button></div>
                     <div className="Avatar">
                         <div>
                             <img src={article.avatarSrc}></img>
