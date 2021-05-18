@@ -7,22 +7,30 @@ function Heading()
             <h2>HACKERNOON</h2>
           </div>
           <div className="header-top-right">
-            <input type="search"></input>
-            <button type="submit">Start Writing</button>
-            <button type="submit">Log in</button>
+            <input type="search" className="header-search" placeholder="Search..."></input>
+            <button type="submit" className="writing-button">Start Writing</button>
+            <button type="submit" className="log-in-button">Log in</button>
           </div>
         </div>
         <div className="header-bottom">
-          <p>Read</p>
-          <p>Top Stories</p>
-          <p>Write</p>
-          <p>Listen</p>
-          <p>Live</p>
-          <p>Advertise</p>
-          <p>About</p>
-          <p>Tech Companies</p>
+          <p>Programming</p>
+          <p>Technology</p>
+          <p>Cryptocurrency</p>
+          <p>Javascript</p>
+          <p>Python</p>
+          <p>Blockchain</p>
+          <p>Gaming</p>
+          <p>AI</p>
+          <p>Startup</p>
+          <p>React</p>
+          <p>Security</p>
           <p>Slogging</p>
-          <p>Help</p>
+          <p>Hackernoon Podcast</p>
+          <p>Decentralization</p>
+          <p>Velo</p>
+          <p>Hackernoon</p>
+          <p>Decentralized Internet</p>
+          <p>Software Development</p>
         </div>
         </header>
     )
