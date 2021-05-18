@@ -67,6 +67,11 @@ label{
     height: 40px;
     border: 5px solid lightgrey;
 }
+.footer-button:hover
+{
+    cursor: pointer;
+    background-color: darkslategrey;
+}
 .footer-text
 {
     font-style:italic;
