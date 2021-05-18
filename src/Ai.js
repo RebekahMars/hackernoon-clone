@@ -10,7 +10,7 @@ export function AI() {
             <div className="card">
                 {articles.Ai.map((article, index) => 
                 <div className="card-body" key={index}>
-                    <h2 className="article-title">{article.titleText}</h2>
+                     <a href={article.titleLink} className="article-title">{article.titleText}</a>
                     <div className="Avatar">
                         <div>
                             <img src={article.avatarSrc}></img>
