@@ -16,6 +16,8 @@
     border: 2px solid lightgray;
     width: 350px;
     height: 400px;
+    max-width: 350px;
+    max-height: 400px;
 }
 .card-title {
     text-align: center;
@@ -37,4 +39,16 @@ img {
     height: 75px;
     display: block;
     float: left;
+}
+.article-title
+{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.article-title:hover
+{
+    cursor: pointer;
+    text-decoration: blue underline;
 }
